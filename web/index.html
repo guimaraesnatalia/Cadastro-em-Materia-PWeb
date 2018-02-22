@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+
+            fieldset{
+                color:#336;
+                font: Times, serif;
+            }
+            #caixaLogin{
+                 position: absolute;
+                 left: 400px;
+                 top:200px;
+                 width: 500px;
+                 height: 0px;
+                 padding:10px;
+
+            }
+            #botao{
+                position: relative;
+                top: 3px;
+                bottom:4px;
+                margin-top: 5px;
+            }     
+             #login{
+                 text-align: center;
+                 padding:10px;
+            }
+            body{
+                background-color:#FAFAFA;
+            }
+            footer{
+                background: #336;
+                border-top: #FFF;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                color: #FFF;
+                font-size: 20px;
+            }
+       
+        </style>
+    </head>
+    <body>
+        
+        <div id="caixaLogin" >
+            <fieldset align="center">
+            <legend> Entrar no Sistema </legend>
+            <form id="login" method="get" action="ListaDisciplinas" autocomplete="on">
+                Usuário:
+                <input type="text" name="matricula" size="17"/><br>
+            <div id="botao"><input  type="submit" value="Entrar" /></div>
+
+            </form>
+            </fieldset>
+        </div>
+        <footer>
+            Natália de Souza Guimarães - 2017.1
+        </footer>
+    </body>
+</html>
